@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication18.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+             <table class="auto-style1">
+                    <tr>
+                        <td>
+                            <asp:Image ID="Image1" runat="server" Height="524px" ImageUrl="~/19.jpg" Width="1564px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><marquee><h1>Please Visit Website</h1></marquee>&nbsp;</td>
+                    </tr>
+                </table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               
+            </asp:ContentPlaceHolder>
+
+            <center>Copy rightby AKS @ All right Reserved</center>
+
+        </div>
+    </form>
+</body>
+</html>
